@@ -24,7 +24,7 @@ namespace TestValidation
             //    Console.WriteLine("Nice try, next time please do it right");
             //}
 
-            // 1. Validation for names: ^[A-Z][a-z]{1,29}$
+            // 1. Validation for names: ^[A-Z][a-zA-Z]{0,29}$
             // 2. Validation for emails: ^[A-Za-z0-9]{5,30}@[A-Za-z0-9]{5,10}\.[a-zA-Z0-9]{2,3}$
             // 3. Validation for phone numbers: ^\d{3}-\d{3}-\d{4}$
             // 4. Validation for dates: ^[0-3]\d\/[0-1]\d\/\d\d\d\d$
